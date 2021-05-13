@@ -32,7 +32,14 @@ class MyHomePage extends StatelessWidget {
       body: Container(
         color: Colors.red,
         margin: EdgeInsets.fromLTRB(30, 30, 35, 30),
-        child: Container(color: Colors.blue, margin: EdgeInsets.only(bottom: 10)),
+        child: Container(color: Colors.blue, margin: EdgeInsets.only(bottom: 10)
+        , Column(
+          children: <Widget>[
+          Text("Candra Julius Sinaga", style: new TextStyle(color:Colors.red)),
+          Text("Candra Julius Sinaga", style: new TextStyle(color:Colors.blue)),
+          Text("Candra Julius Sinaga", style: new TextStyle(color:Colors.black)),
+        ]
+        )),
       ),
     );
   }
