@@ -32,10 +32,7 @@ class MyHomePage extends StatelessWidget {
       body: Container(
         color: Colors.red,
         margin: EdgeInsets.fromLTRB(10, 20, 15, 10),
-        child: Container(
-          color: Colors.blue,
-          margin: EdgeInsets.only(10),
-        ),
+        child: Container(color: Colors.blue, margin: EdgeInsets.only(10)),
       ),
     );
   }
