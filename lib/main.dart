@@ -31,10 +31,10 @@ class MyHomePage extends StatelessWidget {
       ),
       body: Container(
         color: Colors.red,
-        margin: EdgeInsets.all(10),
+        margin: EdgeInsets.fromLTRB(10, 20, 15, 10),
         child: Container(
           color: Colors.blue,
-          margin: EdgeInsets.all(20),
+          margin: EdgeInsets.only(10),
         ),
       ),
     );
