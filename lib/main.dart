@@ -35,9 +35,9 @@ class MyHomePage extends StatelessWidget {
         child: Container(
           color: Colors.blue,
           margin: EdgeInsets.all(20),
-        )
-      )
-    )
+        ),
+      ),
+    );
   }
 
   // kesimpulan dari Codingan
