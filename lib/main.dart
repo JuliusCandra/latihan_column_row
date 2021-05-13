@@ -29,43 +29,15 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text(title),
       ),
-      // Column adalah sebuah widget yang mengatur widget menjadi vertical
-      // Row adalah sebuah widget yang mengatur widget menjadi horizontal
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
-          Text("Candra Julius Sinaga",
-              style: new TextStyle(
-                color: Colors.red,
-              )),
-          Text('Memang ganteng sekali',
-              style: new TextStyle(
-                color: Colors.blue,
-              )),
-          Text('Kayak Power Ranger',
-              style: new TextStyle(
-                color: Colors.black,
-              )),
-          Row(
-            children: <Widget>[
-              Text("Candra Julius Sinaga",
-                  style: new TextStyle(
-                    color: Colors.red,
-                  )),
-              Text('Memang ganteng sekali',
-                  style: new TextStyle(
-                    color: Colors.blue,
-                  )),
-              Text('Kayak Power Ranger',
-                  style: new TextStyle(
-                    color: Colors.black,
-                  )),
-            ],
-          )
-        ],
-      ),
-    );
+      body: Container(
+        color: Colors.red,
+        margin: EdgeInsets.all(10),
+        child: Container(
+          color: Colors.blue,
+          margin: EdgeInsets.all(20),
+        )
+      )
+    )
   }
 
   // kesimpulan dari Codingan
