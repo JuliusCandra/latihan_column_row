@@ -31,21 +31,17 @@ class MyHomePage extends StatelessWidget {
       ),
       body: Container(
         color: Colors.red,
-        margin: EdgeInsets.fromLTRB(30, 30, 35, 30),
+        margin: EdgeInsets.all(10),
+        padding: EdgeInsets.all(10),
         child: Container(
           color: Colors.blue,
-          margin: EdgeInsets.only(bottom: 10),
-        ),
-      ),
+        )
+      )
     );
   }
 
   // kesimpulan dari Codingan
   /*
-  Column adalah sebuah container yang mengatur sebuah widget menjadi kebawah atau vertical
-  Row adalahs sebuah container yang mengatur sebuah widget menjadi kesamping atau horizontal
-  Children merupakan kumpulan dari beberapa widget
-  mainAxisAlignment adalah sebuah alignment yang mengatur widget coloumn menjadi vertical
-  mainAxisAlignment adalah sebuah algiment yang mengatur widget coloumn menjadi horizontal
+    
   */
 }
