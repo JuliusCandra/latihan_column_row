@@ -26,18 +26,10 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(title),
-      ),
-      body: Container(
-        color: Colors.red,
-        margin: EdgeInsets.all(10),
-        padding: EdgeInsets.all(10),
-        child: Container(
-          color: Colors.blue,
-        )
-      )
-    );
+        appBar: AppBar(
+          title: Text(title),
+        ),
+        body: Container(color: Colors.red, margin: EdgeInsets.all(10), padding: EdgeInsets.all(10), child: Container(color: Colors.blue, margin: EdgeInsets.all(20))));
   }
 
   // kesimpulan dari Codingan
