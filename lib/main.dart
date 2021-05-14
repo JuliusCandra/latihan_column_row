@@ -29,7 +29,13 @@ class MyHomePage extends StatelessWidget {
         appBar: AppBar(
           title: Text(title),
         ),
-        body: Container(color: Colors.red, margin: EdgeInsets.all(10), padding: EdgeInsets.all(10), child: Container(color: Colors.blue, margin: EdgeInsets.all(20))));
+        body: Container(
+            color: Colors.red,
+            margin: EdgeInsets.fromLTRB(20, 20, 20, 20),
+            padding: EdgeInsets.only(
+              bottom: 20,
+            ),
+            child: Container(color: Colors.blue, margin: EdgeInsets.all(20))));
   }
 
   // kesimpulan dari Codingan
