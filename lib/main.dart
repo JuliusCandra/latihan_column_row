@@ -38,7 +38,7 @@ class MyHomePage extends StatelessWidget {
             ),
             child: Container(
                 decoration: BoxDecoration(
-              gradient: LinearGradient(colors: <Color>[
+              gradient: LinearGradient(begin: Alignment.topLeft, end: Alignment.bottomRight, colors: <Color>[
                 Colors.amber,
                 Colors.blue
               ]),
