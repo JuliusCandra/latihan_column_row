@@ -38,6 +38,8 @@ class MyHomePage extends StatelessWidget {
             ),
             child: Container(
                 decoration: BoxDecoration(
+              margin: EdgeInsets.all(30),
+              borderRadius: BorderRadius.circular(20),
               gradient: LinearGradient(begin: Alignment.topLeft, end: Alignment.bottomRight, colors: <Color>[
                 Colors.amber,
                 Colors.blue
