@@ -49,6 +49,11 @@ class MyHomePage extends StatelessWidget {
 
   // kesimpulan dari Codingan
   /*
-    
+    EdgefromLtbr adalah sebuah method yang mengatur rata kanan kiri tengah dan atas bawah sebuah container
+    Edgeinsets.only adalah sebuah method yang mengatur rata yang satu aja
+    decoration memiliki property borderradius dan border radius memiliki property BorderRadius.circular(radius)
+    decoration di inisiasi dengan BoxDecoration
+    dan gradient memiliki property LinearGradient dan LinearGradient memiliki property colors dan begin serta end 
+    sedangkan colors adalah kumpulan dari beberapa color
   */
 }
