@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       // Application theme data, you can set the colors for the application as
       // you want
       theme: ThemeData(
-        primarySwatch: Colors.red,
+        primarySwatch: Colors.blue,
       ),
       // A widget which will be started on application startup
       home: MyHomePage(),
@@ -30,12 +30,16 @@ class MyHomePage extends StatelessWidget {
           title: Text(title),
         ),
         body: Container(
-            color: Colors.red,
-            margin: EdgeInsets.fromLTRB(20, 20, 20, 20),
+            color: Colors.blue,
+            margin: EdgeInsets.all(20),
             padding: EdgeInsets.only(
               bottom: 20,
+              top: 10,
             ),
-            child: Container(color: Colors.blue, margin: EdgeInsets.all(20))));
+            child: Container(
+              color: Colors.blue,
+              margin: EdgeInsets.all(10),
+            )));
   }
 
   // kesimpulan dari Codingan
