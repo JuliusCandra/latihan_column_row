@@ -37,9 +37,12 @@ class MyHomePage extends StatelessWidget {
               top: 10,
             ),
             child: Container(
-              color: Colors.red,
-              margin: EdgeInsets.all(10),
-            )));
+                decoration: BoxDecoration(
+              gradient: LinearGradient(colors: <Color>[
+                Colors.amber,
+                Colors.blue
+              ]),
+            ))));
   }
 
   // kesimpulan dari Codingan
