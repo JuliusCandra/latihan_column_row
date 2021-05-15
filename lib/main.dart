@@ -37,8 +37,8 @@ class MyHomePage extends StatelessWidget {
               top: 10,
             ),
             child: Container(
-                decoration: BoxDecoration(
               margin: EdgeInsets.all(30),
+              decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(20),
               gradient: LinearGradient(begin: Alignment.topLeft, end: Alignment.bottomRight, colors: <Color>[
                 Colors.amber,
