@@ -11,36 +11,28 @@ class _MyAppState extends State<MyApp> {
   final String title = 'Candra Julius Sinaga';
   int number = 0;
 
-  void tekanTombol(){
-
+  void tekanTombol() {
+    setState(() {
+      number = number + 1;
+    });
   }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text(title),
-        ),
-        body: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
+        home: Scaffold(
+            appBar: AppBar(
+              title: Text(title),
+            ),
+            body: Center(
+                child: Column(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
               Text(number.toString()),
-              RaisedButton(
-                child: Text('Tambah Bilangan'),
-                onPressed: tekanTombol
-              )
-            ]
-          )
-        )
-      )
-    );
+              RaisedButton(child: Text('Tambah Bilangan'), onPressed: tekanTombol)
+            ]))));
   }
 }
 
-
-
-  // kesimpulan dari Codingan
-  /*
+// kesimpulan dari Codingan
+/*
    
   */
