@@ -37,7 +37,7 @@ class MyHomePage extends StatelessWidget {
               top: 10,
             ),
             child: Container(
-              color: Colors.blue,
+              color: Colors.red,
               margin: EdgeInsets.all(10),
             )));
   }
